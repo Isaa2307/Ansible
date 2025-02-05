@@ -1,5 +1,4 @@
-﻿---
-
+---
 - name: General Config
 
   hosts: routers
@@ -7,10 +6,12 @@
   tasks:
 
   - name: Add Banner
-    ios_banner:
-    isaaaaaaa
+
+    cisco.ios.ios_banner:
       banner: login
       text: |
-        isa was here UwU
-        therefore deserves a 100
+        hola a todos guapisimos aqui vegeta 777777
       state: present
+
+  - name: Merge provided configuration with device configuration
+ 
