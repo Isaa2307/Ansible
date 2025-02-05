@@ -7,8 +7,8 @@
   tasks:
 
   - name: Add Banner
-    isaaaaaaa
     ios_banner:
+    isaaaaaaa
       banner: login
       text: |
         isa was here UwU
