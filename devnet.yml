@@ -13,5 +13,3 @@
         hola a todos guapisimos aqui vegeta 777777
       state: present
 
-  - name: Merge provided configuration with device configuration
- 
